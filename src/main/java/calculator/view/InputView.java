@@ -1,8 +1,6 @@
 package calculator.view;
 
-public class InputView
-
-     // 사용자 입력을 담당하는 클래스
+import camp.nextstep.edu.missionutils.Console;// 사용자 입력을 담당하는 클래스
 
 
     public class InputView {
@@ -17,4 +15,4 @@ public class InputView
         }
     }
 
-}
+
