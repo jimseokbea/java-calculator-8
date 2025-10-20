@@ -1,19 +1,25 @@
-## 기능 목록
+1주차 - 문자열 계산기 미션 제출합니다.
 
-- [x] 사용자에게 문자열 입력받기                 ## InputView.java
-- [x] 빈 문자열이나 null은 0으로 처리            ## StringCalculator.java
-- [x] 기본 구분자(쉼표, 콜론)로 숫자 분리하기     ## StringCalculator.java
-- [x] 커스텀 구분자(//) 지원한다                 ## StringCalculator.java
-- [x] 문자열을 숫자로 변환하기                   ## StringCalculator.java
-- [x] 모든 숫자 다 더하기                       ## StringCalculator.java
-- [x] 음수 입력시 예외 처리하기                  ## StringCalculator.java
-- [x] 숫자가 아닌 값 입력시 예외 처리하기         ## StringCalculator.java
-- [x] 결과 출력하기                             ## OutputView.java
+✅ 기능 목록
 
-## 예외 상황
-- 음수가 포함된 경우 → IllegalArgumentException
-- 숫자로 변환할 수 없는 경우 → IllegalArgumentException
-- 커스텀 구분자 형식이 잘못된 경우 → IllegalArgumentException
+[x] null 또는 빈 문자열을 입력할 경우 0을 반환한다.
+[x] 숫자 하나를 문자열로 입력할 경우 해당 숫자를 반환한다.
+[x] 쉼표(,) 또는 콜론(:)을 구분자로 가지는 문자열을 입력할 경우, 각 숫자의 합을 반환한다.
+[x] 커스텀 구분자를 지정할 수 있다.
+    //와 \n 사이의 문자를 커스텀 구분자로 사용한다.
+[x] 음수를 입력할 경우 RuntimeException 예외를 발생시킨다.
+[x] 숫자가 아닌 값이 입력될 경우 RuntimeException 예외를 발생시킨다.
+[x] 연속된 구분자가 입력될 경우 RuntimeException 예외를 발생시킨다.
+[x] 사용자가 입력을 하면 계산 결과를 출력하고, 다시 입력을 받을 수 있다.
 
-## 시작점 프로그램 실행 
-- Application.java
+✅ PR 체크리스트
+
+[x] 기능 목록을 재검토하여 추가/삭제했는가?
+[x] git을 통해 버전 관리가 잘 되고 있는가?
+[x] 기능 단위로 커밋하는 습관을 가졌는가?
+[x] PR을 보내기 전 기능 목록이 모두 구현됐는지 확인했는가?
+[x] 자바 코드 컨벤션을 잘 지키면서 프로그래밍 했는가?
+[x] 객체 지향 생활 체조 원칙을 적용해봤는가?
+[x] 도메인 객체에 대한 단위 테스트를 작성했는가?
+[x] 테스트를 통해 무엇을 검증해야 하는지에 대한 고민을 충분히 했는가?
+[x] TDD로 진행했는가? (선택 사항)
