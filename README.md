@@ -1,4 +1,3 @@
-# java-calculator-precourse
 ## 기능 목록
 
 - [x] 사용자에게 문자열 입력받기                 ## InputView.java
